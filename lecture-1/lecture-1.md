@@ -1,6 +1,6 @@
 ## Список файлів до першої лекції
 
-* [operators.py](operators.py){:target="_blank" rel="noopener"}- перелік основних операторів;
+* [operators.py](operators.py)- перелік основних операторів;
 * [if-else.py ](if-else.py ) - приклад використання розгалуджень;
 * [simple-loop-for.py](simple-loop-for.py) - простий цикл for;
 * [simple-loop-while.py](simple-loop-while.py) - простий цикл while;
