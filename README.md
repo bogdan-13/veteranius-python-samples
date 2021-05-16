@@ -1,2 +1,2 @@
 # veteranius-python-samples
-This is a repository with examples for a Python Veteranius programming course.
+Тут зберігаються прикади для курсу Veteranius Python.
