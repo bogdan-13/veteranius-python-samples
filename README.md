@@ -9,3 +9,7 @@ lecture-2 - References, values and core types
 lecture-3
 * classes, type hints
 * inheritance, composition, aggregation
+
+lecture-4
+* polymorphism and abstraction
+* functions in general
