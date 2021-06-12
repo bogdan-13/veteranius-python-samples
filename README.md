@@ -13,3 +13,8 @@ lecture-3
 lecture-4
 * polymorphism and abstraction
 * functions in general
+
+lecture-5
+* scope
+* lambdas & methods & functions
+* closure
