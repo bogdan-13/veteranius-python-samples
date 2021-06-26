@@ -18,3 +18,5 @@ lecture-5
 * scope
 * lambdas & methods & functions
 * closure
+
+lecture-6 - Data structures
