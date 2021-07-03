@@ -20,3 +20,7 @@ lecture-5
 * closure
 
 lecture-6 - Data structures
+
+lecture-7
+* Input-Output
+* Exceptions
