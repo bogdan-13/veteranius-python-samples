@@ -1,0 +1,12 @@
+# example of requirements file
+# name 'requrements.txt' is just a convention
+# it is used to recreate working virtualenv
+# to create similar file: pip freeze > requirements.txt
+# to install packages: pip install -r requirements.txt
+flake8==3.9.2
+importlib-metadata==4.6.1
+mccabe==0.6.1
+pycodestyle==2.7.0
+pyflakes==2.3.1
+typing-extensions==3.10.0.0
+zipp==3.5.0
