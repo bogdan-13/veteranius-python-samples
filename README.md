@@ -26,3 +26,7 @@ lecture-7
 * Exceptions
 
 lecture-8 - Modules
+
+lecture-9 - Packages
+
+lecture-10 - Decorators
