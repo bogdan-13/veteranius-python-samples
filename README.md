@@ -32,3 +32,5 @@ lecture-9 - Packages
 lecture-10 - Decorators
 
 lecture-11 - Concurrency
+
+lecture-12 - Git flow
