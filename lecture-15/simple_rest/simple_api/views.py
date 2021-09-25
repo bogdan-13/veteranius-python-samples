@@ -1,15 +1,10 @@
-from rest_framework import generics
+from rest_framework import viewsets, generics
 from . import serializers
 from django.contrib.auth.models import User
 from .models import Post
 
 
-class UserList(generics.ListAPIView):
-    queryset = User.objects.all()
-    serializer_class = serializers.UserSerializer
-
-
-class UserDetail(generics.RetrieveAPIView):
+class UserViewSet(viewsets.ModelViewSet):
     queryset = User.objects.all()
     serializer_class = serializers.UserSerializer
 
