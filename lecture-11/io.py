@@ -4,6 +4,7 @@ from multiprocessing import Pool
 from concurrent.futures import ThreadPoolExecutor
 import asyncio
 import aiohttp
+from toolz import partition
 
 # Get http://olympus.realpython.org/dice 80 times
 URL = 'http://olympus.realpython.org/dice'
@@ -29,6 +30,14 @@ def get_urls_proc(urls):
 def get_urls_thread(urls):
     with ThreadPoolExecutor() as pool:
         pool.map(get_url, urls)
+
+# Processing + threading
+# improvement in comparison to threading version
+# we allocate 4 processes with thread pools in each
+# the most resource-heavy solution
+def get_urls_proc_thread(urls):
+    with Pool(4) as pool:
+        pool.map(get_urls_thread, partition(20, urls))
 
 # Asyncio version
 # improvement in comparison to threading version, because only 1 thread is needed to event loop to run
